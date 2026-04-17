@@ -1,4 +1,5 @@
 import Banner from "@/components/home/Banner";
+import FriendsGrid from "@/components/home/FriendsGrid";
 import SummaryCards from "@/components/home/SummaryCards";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <div className="py-[40px]">
       <div className="divider w-8/12 mx-auto"></div>
       </div>
+      <FriendsGrid></FriendsGrid>
     </div>
   );
 }
